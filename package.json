@@ -1,0 +1,31 @@
+{
+  "name": "xinyinuxt",
+  "version": "1.0.0",
+  "description": "xinyinuxt",
+  "author": "phpjishu <phpjishu@qq.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "countup.js": "^1.9.3",
+    "element-ui": "^2.2.0",
+    "nuxt": "^1.0.0",
+    "vue-countup-v2": "^1.0.3",
+    "vue-markdown": "^2.2.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0"
+  }
+}

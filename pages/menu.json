@@ -1,0 +1,197 @@
+{
+  "menus": [
+    {
+      "title": "首页",
+      "icon": "fas fa-home",
+      "path": "/"
+    },
+    {
+      "title": "文章",
+      "icon": "fas fa-newspaper",
+      "submenu": {
+        "title": "",
+        "items": [
+          {
+            "title": "文章管理",
+            "icon": "fas fa-list-alt",
+            "path": "/news/list"
+          },
+          {
+            "title": "添加文章",
+            "icon": "fas fa-plus-square",
+            "path": "/news/add"
+          },
+          {
+            "title": "文章分类",
+            "icon": "fas fa-th-list",
+            "path": "/news/type"
+          },
+          {
+            "title": "文章标签",
+            "icon": "fas fa-tags",
+            "path": "/news/tags"
+          }
+        ]
+      }
+    },
+    {
+      "title": "视频",
+      "icon": "fas fa-video",
+      "submenu": {
+        "title": "",
+        "items": [
+          {
+            "title": "视频管理",
+            "icon": "fas fa-list-alt",
+            "path": "/video/list"
+          },
+          {
+            "title": "添加视频",
+            "icon": "fas fa-plus-square",
+            "path": "/video/add"
+          },
+          {
+            "title": "视频分类",
+            "icon": "fas fa-th-list",
+            "path": "/video/type"
+          },
+          {
+            "title": "视频标签",
+            "icon": "fas fa-tags",
+            "path": "/video/tags"
+          }
+        ]
+      }
+    },
+    {
+      "title": "需求",
+      "icon": "fas fa-hand-paper",
+      "submenu": {
+        "title": "",
+        "items": [
+          {
+            "title": "需求管理",
+            "icon": "fas fa-list-alt",
+            "path": "/demand/list"
+          },
+          {
+            "title": "发布需求",
+            "icon": "fas fa-plus-square",
+            "path": "/demand/add"
+          },
+          {
+            "title": "需求分类",
+            "icon": "fas fa-th-list",
+            "path": "/demand/type"
+          }
+        ]
+      }
+    },
+    {
+      "title": "供应",
+      "icon": "fas fa-shipping-fast",
+      "submenu": {
+        "title": "",
+        "items": [
+          {
+            "title": "供应管理",
+            "icon": "fas fa-list-alt",
+            "path": "/supply/list"
+          },
+          {
+            "title": "添加供应",
+            "icon": "fas fa-plus-square",
+            "path": "/supply/add"
+          },
+          {
+            "title": "供应分类",
+            "icon": "fas fa-th-list",
+            "path": "/supply/type"
+          },
+          {
+            "title": "供应标签",
+            "icon": "fas fa-tags",
+            "path": "/supply/tags"
+          }
+        ]
+      }
+    },
+    {
+      "title": "猎头",
+      "icon": "fas fa-pastafarianism",
+      "submenu": {
+        "title": "",
+        "items": [
+          {
+            "title": "猎头管理",
+            "icon": "fas fa-angry",
+            "path": "/headhunting/list"
+          },
+          {
+            "title": "添加猎头",
+            "icon": "fas fa-plus-square",
+            "path": "/headhunting/add"
+          },
+          {
+            "title": "猎头分佣",
+            "icon": "fas fa-money-check-alt",
+            "path": "/headhunting/maid"
+          },
+          {
+            "title": "猎头提现",
+            "icon": "fas fa-hand-holding-usd",
+            "path": "/headhunting/putforward"
+          }
+        ]
+      }
+    },
+    {
+      "title": "用户",
+      "icon": "fas fa-user",
+      "submenu": {
+        "title": "",
+        "items": [
+          {
+            "title": "用户管理",
+            "icon": "fas fa-users",
+            "path": "/user/list"
+          },
+          {
+            "title": "推荐记录",
+            "icon": "fas fa-american-sign-language-interpreting",
+            "path": "/user/recommend"
+          },
+          {
+            "title": "管理员",
+            "icon": "fas fa-users-cog",
+            "path": "/user/admin"
+          }
+        ]
+      }
+    },
+    {
+      "title": "设置",
+      "icon": "fas fa-cogs",
+      "submenu": {
+        "title": "",
+        "items": [
+          {
+            "title": "系统设置",
+            "icon": "fas fa-cog",
+            "path": "/setting/system"
+          },
+          {
+            "title": "邮件服务器",
+            "icon": "fas fa-mail-bulk",
+            "path": "/setting/emailserver"
+          },
+          {
+            "title": "国外跳板",
+            "icon": "fas fa-magnet",
+            "path": "/setting/agentserver"
+          }
+        ]
+      }
+    }
+  ]
+}
